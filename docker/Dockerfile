@@ -16,4 +16,5 @@ RUN apt-get update && apt-get install -y \
 ENV DISPLAY=:0
 
 
+RUN git pull
 CMD ["python3", "exe.py"]
