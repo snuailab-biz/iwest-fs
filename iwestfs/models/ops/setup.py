@@ -20,6 +20,8 @@ from setuptools import setup
 
 requirements = ["torch", "torchvision"]
 
+this_dir = os.path.dirname(os.path.abspath(__file__))
+extensions_dir = os.path.join(this_dir, "src")
 def get_extensions():
     this_dir = os.path.dirname(os.path.abspath(__file__))
     extensions_dir = os.path.join(this_dir, "src")
