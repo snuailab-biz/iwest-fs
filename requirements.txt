@@ -1,0 +1,7 @@
+torch
+torchvision
+opencv-python
+transformers==4.11.3
+matplotlib
+pyyaml
+numpy
