@@ -1,0 +1,16 @@
+MODEL_NAME : "mdef_detr"
+
+PRETRAINED_MODEL : "MDef_DETR_r101_epoch20_ore.pth"
+
+BATCH_SIZE : 3
+
+IMAGE_SHOW : false
+
+RESTAPI_URL : "http://0.0.0.0:8080/dkserver"
+
+CAMERAINFO_PATH : "./config"
+
+# run environment : don't set 'cpu'
+DEVICE : 'cuda:0'
+#DEVICE : 'cuda:1'
+
