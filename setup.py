@@ -12,15 +12,15 @@ REQUIREMENTS = [f'{x.name}{x.specifier}' for x in pkg.parse_requirements((PARENT
 import os
 import glob
 
-import torch
-
-from torch.utils.cpp_extension import CUDA_HOME
-from torch.utils.cpp_extension import CppExtension
-from torch.utils.cpp_extension import CUDAExtension
-
-requirements = ["torch", "torchvision"]
 
 def get_extensions():
+    import torch
+
+    from torch.utils.cpp_extension import CUDA_HOME
+    from torch.utils.cpp_extension import CppExtension
+    from torch.utils.cpp_extension import CUDAExtension
+
+    requirements = ["torch", "torchvision"]
     this_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'iwestfs/models/ops')
     extensions_dir = os.path.join(this_dir, "src")
 
