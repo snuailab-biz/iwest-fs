@@ -22,7 +22,7 @@ class CustomInstall(install):
 
 setup(
     name = 'iwestfs',
-    version = '0.0.2',
+    version = '0.0.3',
     description='setup iwest fire & smoke detector install.',
     url='https://github.com/snuailab-biz/iwest-fs.git',
     author='leejj',
