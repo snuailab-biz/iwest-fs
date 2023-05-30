@@ -11,6 +11,7 @@ REQUIREMENTS = [f'{x.name}{x.specifier}' for x in pkg.parse_requirements((PARENT
 
 class CustomInstall(install):
     def run(self):
+        print("asdfasdfasdfasdfasdfasdf")
         # 기본 설치 작업 실행
         install.run(self)
         
