@@ -1,9 +1,8 @@
 model_name: mdef_detr
-pretrained_model: docker/MDef_DETR_r101_epoch20_ore.pth
+pretrained_model: model/MDef_DETR_r101_epoch20_ore.pth
 batch_size: 3
 image_show: true
 restapi_url: http://0.0.0.0:8080/dkserver
-camerainfo_path: ./config
 device: cuda:0
 
 cam: 
