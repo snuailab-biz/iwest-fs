@@ -1,5 +1,5 @@
 model_name: mdef_detr
-pretrained_model: /home/ljj/model/iwest/MDef_DETR_r101_epoch20_ore.pth
+pretrained_model: docker/MDef_DETR_r101_epoch20_ore.pth
 batch_size: 3
 image_show: true
 restapi_url: http://0.0.0.0:8080/dkserver
@@ -17,20 +17,20 @@ cam:
         name: 28
         caption: Fire and Smoke
         event: flame_snuai
-  - url: 0
-    color: RGB
-    rois: 
-      - x1: 0
-        y1: 0
-        x2: 0
-        y2: 0
-        name: 28
-        caption: Fire and Smoke",
-        event: flame1
-      - x1: 0
-        y1: 0
-        x2: 0
-        y2: 0
-        name: 28
-        caption: nose of human
-        event: nose_of_human
+  # - url: 0
+  #   color: RGB
+  #   rois: 
+  #     - x1: 0
+  #       y1: 0
+  #       x2: 0
+  #       y2: 0
+  #       name: 28
+  #       caption: Fire and Smoke",
+  #       event: flame1
+  #     - x1: 0
+  #       y1: 0
+  #       x2: 0
+  #       y2: 0
+  #       name: 28
+  #       caption: nose of human
+  #       event: nose_of_human

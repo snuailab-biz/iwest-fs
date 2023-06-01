@@ -57,9 +57,9 @@ class Predict:
         device_list_size = len(self.cams)
         show_n = int(np.sqrt(len(self.cams)));
         show_m = len(self.cams) - show_n;
-        my_show = dkko_matplotshow(show_num=(show_n+1,show_m));
+        # my_show = dkko_matplotshow(show_num=(show_n+1,show_m));
         try:
-            while my_show.isrun():
+            while True:
                 frame_list = [];
                 captions_list = [];
                 event_list = [];

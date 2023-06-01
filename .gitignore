@@ -38,5 +38,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+**pth
+
 # pytype static type analyzer
 .pytype/
